@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "common",
+            "includePath": [
+                "${workspaceFolder}/Core/Inc**",
+                "${workspaceFolder}/Drivers/CMSIS/Include**",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include**",
+                "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc**",
+                "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy**",
+                "${config:boot_project_path}/Core/Inc**",
+                "${config:boot_project_path}/Drivers/CMSIS/Include**",
+                "${config:boot_project_path}/Drivers/CMSIS/Device/ST/STM32F1xx/Include**",
+                "${config:boot_project_path}/Drivers/STM32F1xx_HAL_Driver/Inc**",
+                "${config:boot_project_path}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy**",
+                "${config:boot_project_path}/Middlewares/ST/STM32_USB_Device_Library/Core/Inc**",
+                "${config:boot_project_path}/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc**",
+                "${config:boot_project_path}/USB_DEVICE/App**",
+                "${config:boot_project_path}/USB_DEVICE/Target**"
+            ],
+            "defines": [
+                "STM32F103xb",
+                "RCC",
+                "FLASH",
+                "FLASH_ACR_LATENCY",
+                "USE_FULL_LL_DRIVER"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
