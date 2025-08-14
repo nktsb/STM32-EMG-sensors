@@ -95,7 +95,7 @@ To build and flash STM32 project, open project in VSCode and open tasks menu wit
 
 ## Major project
 
-This repository serves as a submodule of the larger project: [EMG Gesture Recognition](https://github.com/nktsb/EMG_gesture_recognition).
+This repository serves as a submodule of the larger project: [EMG Gesture Recognition](https://github.com/nktsb/EMG-gesture-recognition).
 
 
 
